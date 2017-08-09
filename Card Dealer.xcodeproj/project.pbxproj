@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF167D21F3ADA5600BA48CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF167D11F3ADA5600BA48CA /* AppDelegate.swift */; };
+		6AF167D41F3ADA5600BA48CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF167D31F3ADA5600BA48CA /* ViewController.swift */; };
+		6AF167D71F3ADA5600BA48CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF167D51F3ADA5600BA48CA /* Main.storyboard */; };
+		6AF167D91F3ADA5600BA48CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF167D81F3ADA5600BA48CA /* Assets.xcassets */; };
+		6AF167DC1F3ADA5600BA48CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF167DA1F3ADA5600BA48CA /* LaunchScreen.storyboard */; };
+		6AF167E71F3ADA5600BA48CA /* Card_DealerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF167E61F3ADA5600BA48CA /* Card_DealerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AF167E31F3ADA5600BA48CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF167C61F3ADA5600BA48CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF167CD1F3ADA5600BA48CA;
+			remoteInfo = "Card Dealer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AF167CE1F3ADA5600BA48CA /* Card Dealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Dealer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF167D11F3ADA5600BA48CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AF167D31F3ADA5600BA48CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6AF167D61F3ADA5600BA48CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AF167D81F3ADA5600BA48CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AF167DB1F3ADA5600BA48CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AF167DD1F3ADA5600BA48CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AF167E21F3ADA5600BA48CA /* Card DealerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card DealerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF167E61F3ADA5600BA48CA /* Card_DealerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_DealerTests.swift; sourceTree = "<group>"; };
+		6AF167E81F3ADA5600BA48CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF167CB1F3ADA5600BA48CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF167DF1F3ADA5600BA48CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF167C51F3ADA5600BA48CA = {
+			isa = PBXGroup;
+			children = (
+				6AF167D01F3ADA5600BA48CA /* Card Dealer */,
+				6AF167E51F3ADA5600BA48CA /* Card DealerTests */,
+				6AF167CF1F3ADA5600BA48CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF167CF1F3ADA5600BA48CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF167CE1F3ADA5600BA48CA /* Card Dealer.app */,
+				6AF167E21F3ADA5600BA48CA /* Card DealerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF167D01F3ADA5600BA48CA /* Card Dealer */ = {
+			isa = PBXGroup;
+			children = (
+				6AF167D11F3ADA5600BA48CA /* AppDelegate.swift */,
+				6AF167D31F3ADA5600BA48CA /* ViewController.swift */,
+				6AF167D51F3ADA5600BA48CA /* Main.storyboard */,
+				6AF167D81F3ADA5600BA48CA /* Assets.xcassets */,
+				6AF167DA1F3ADA5600BA48CA /* LaunchScreen.storyboard */,
+				6AF167DD1F3ADA5600BA48CA /* Info.plist */,
+			);
+			path = "Card Dealer";
+			sourceTree = "<group>";
+		};
+		6AF167E51F3ADA5600BA48CA /* Card DealerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF167E61F3ADA5600BA48CA /* Card_DealerTests.swift */,
+				6AF167E81F3ADA5600BA48CA /* Info.plist */,
+			);
+			path = "Card DealerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF167CD1F3ADA5600BA48CA /* Card Dealer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF167EB1F3ADA5600BA48CA /* Build configuration list for PBXNativeTarget "Card Dealer" */;
+			buildPhases = (
+				6AF167CA1F3ADA5600BA48CA /* Sources */,
+				6AF167CB1F3ADA5600BA48CA /* Frameworks */,
+				6AF167CC1F3ADA5600BA48CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Dealer";
+			productName = "Card Dealer";
+			productReference = 6AF167CE1F3ADA5600BA48CA /* Card Dealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF167E11F3ADA5600BA48CA /* Card DealerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF167EE1F3ADA5600BA48CA /* Build configuration list for PBXNativeTarget "Card DealerTests" */;
+			buildPhases = (
+				6AF167DE1F3ADA5600BA48CA /* Sources */,
+				6AF167DF1F3ADA5600BA48CA /* Frameworks */,
+				6AF167E01F3ADA5600BA48CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF167E41F3ADA5600BA48CA /* PBXTargetDependency */,
+			);
+			name = "Card DealerTests";
+			productName = "Card DealerTests";
+			productReference = 6AF167E21F3ADA5600BA48CA /* Card DealerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF167C61F3ADA5600BA48CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tristan Burnside";
+				TargetAttributes = {
+					6AF167CD1F3ADA5600BA48CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y6758C58LW;
+						ProvisioningStyle = Automatic;
+					};
+					6AF167E11F3ADA5600BA48CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y6758C58LW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AF167CD1F3ADA5600BA48CA;
+					};
+				};
+			};
+			buildConfigurationList = 6AF167C91F3ADA5600BA48CA /* Build configuration list for PBXProject "Card Dealer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF167C51F3ADA5600BA48CA;
+			productRefGroup = 6AF167CF1F3ADA5600BA48CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF167CD1F3ADA5600BA48CA /* Card Dealer */,
+				6AF167E11F3ADA5600BA48CA /* Card DealerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF167CC1F3ADA5600BA48CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF167DC1F3ADA5600BA48CA /* LaunchScreen.storyboard in Resources */,
+				6AF167D91F3ADA5600BA48CA /* Assets.xcassets in Resources */,
+				6AF167D71F3ADA5600BA48CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF167E01F3ADA5600BA48CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF167CA1F3ADA5600BA48CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF167D41F3ADA5600BA48CA /* ViewController.swift in Sources */,
+				6AF167D21F3ADA5600BA48CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF167DE1F3ADA5600BA48CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF167E71F3ADA5600BA48CA /* Card_DealerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF167E41F3ADA5600BA48CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF167CD1F3ADA5600BA48CA /* Card Dealer */;
+			targetProxy = 6AF167E31F3ADA5600BA48CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AF167D51F3ADA5600BA48CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF167D61F3ADA5600BA48CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AF167DA1F3ADA5600BA48CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF167DB1F3ADA5600BA48CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AF167E91F3ADA5600BA48CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AF167EA1F3ADA5600BA48CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AF167EC1F3ADA5600BA48CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6758C58LW;
+				INFOPLIST_FILE = "Card Dealer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Card-Dealer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6AF167ED1F3ADA5600BA48CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6758C58LW;
+				INFOPLIST_FILE = "Card Dealer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Card-Dealer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6AF167EF1F3ADA5600BA48CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6758C58LW;
+				INFOPLIST_FILE = "Card DealerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Card-DealerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Dealer.app/Card Dealer";
+			};
+			name = Debug;
+		};
+		6AF167F01F3ADA5600BA48CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6758C58LW;
+				INFOPLIST_FILE = "Card DealerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Card-DealerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Dealer.app/Card Dealer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF167C91F3ADA5600BA48CA /* Build configuration list for PBXProject "Card Dealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF167E91F3ADA5600BA48CA /* Debug */,
+				6AF167EA1F3ADA5600BA48CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF167EB1F3ADA5600BA48CA /* Build configuration list for PBXNativeTarget "Card Dealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF167EC1F3ADA5600BA48CA /* Debug */,
+				6AF167ED1F3ADA5600BA48CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6AF167EE1F3ADA5600BA48CA /* Build configuration list for PBXNativeTarget "Card DealerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF167EF1F3ADA5600BA48CA /* Debug */,
+				6AF167F01F3ADA5600BA48CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF167C61F3ADA5600BA48CA /* Project object */;
+}
