@@ -15,9 +15,9 @@ class CardSpec: QuickSpec {
     describe("Tests of the card model") { 
       context("a card is created") {
         let card = Card(suit: "clubs", number: "9")
-        it("should have a suit", closure: { 
+        it("should have a suit") {
           expect(card.suit).to(equal("clubs"))
-        })
+        }
       }
     }
   }
